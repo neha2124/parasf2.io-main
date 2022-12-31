@@ -108,7 +108,6 @@ let myJson = [{"id":1,"first_name":"Chadwick","last_name":"Ayre","email":"cayre0
 {"id":98,"first_name":"Drugi","last_name":"Bordone","email":"dbordone2p@slate.com","gender":"Male","img_src":"https://robohash.org/autminimanulla.png?size=50x50&set=set1","class":4,"marks":63,"passing":true,"city":"Senekal"},
 {"id":99,"first_name":"Gordon","last_name":"Vieyra","email":"gvieyra2q@geocities.com","gender":"Male","img_src":"https://robohash.org/nullaeumaut.png?size=50x50&set=set1","class":11,"marks":59,"passing":false,"city":"Nīkshahr"},
 {"id":100,"first_name":"Zoe","last_name":"Moorhead","email":"zmoorhead2r@sfgate.com","gender":"Female","img_src":"https://robohash.org/fugiatcorporisdeleniti.png?size=50x50&set=set1","class":8,"marks":43,"passing":true,"city":"Makin Village"}]
-console.log(myJson)
 myJson.forEach((e) => {
   if (e.passing == true) {
     e.passing = "Pass";
